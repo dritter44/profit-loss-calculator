@@ -51,6 +51,7 @@ def pandl(orders_list, curr_price):          #orders is an array of arrays conta
         # update avg price of shares; weigthed average of position size and price
         avg_prc = ((pos_size*avg_prc)+(order_size*order_price))/(order_size+pos_size)
         # calculate unrealized profit or loss
+        #stopping point
         
 
 
